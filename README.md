@@ -1,1 +1,1 @@
-# android_device_le_gemini
+FOR COMPILING TWRP for Gemini (Le Eco Le Max2)
