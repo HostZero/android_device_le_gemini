@@ -17,11 +17,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_gemini.mk
 
-PRODUCT_COPY_FILES := \
-    device/le/gemini/rootdir/fstab.qcom:recovery/root/fstab.qcom \
-    device/le/gemini/rootdir/fstab.ranchu:recovery/root/fstab.ranchu \
-    device/le/gemini/rootdir/fstab.goldfish:recovery/root/fstab.goldfish \
-    device/le/gemini/rootdir/ueventd.ranchu.rc:recovery/root/ueventd.ranchu.rc \
-    device/le/gemini/rootdir/ueventd.goldfish.rc:recovery/root/ueventd.goldfish.rc \
-    
 
