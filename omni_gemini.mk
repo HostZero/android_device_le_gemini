@@ -20,3 +20,11 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/le/gemini/full_gemini.mk)
 
 PRODUCT_NAME := omni_gemini
+
+PRODUCT_COPY_FILES := \
+    device/le/gemini/rootdir/fstab.qcom:recovery/root/fstab.qcom \
+    device/le/gemini/rootdir/fstab.ranchu:recovery/root/fstab.ranchu \
+    device/le/gemini/rootdir/fstab.goldfish:recovery/root/fstab.goldfish \
+    device/le/gemini/rootdir/ueventd.ranchu.rc:recovery/root/ueventd.ranchu.rc \
+    device/le/gemini/rootdir/ueventd.goldfish.rc:recovery/root/ueventd.goldfish.rc \
+    
